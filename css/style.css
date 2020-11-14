@@ -1,30 +1,45 @@
-.nav_buttons {
+.nav{
+    color:white;
+    background-color: rgb(247, 81, 108);
     display: inline-block;
-    padding: 15px;
-    background-color: red;
-
+    padding: .5%;
+    width: 14%;
+    text-align: center;
 }
-#nav {
-    background-color: silver;
+#wholenav {
+    background-color: rgb(221, 151, 162);
 }
-#left {
-    width: 29%;
+.left {
     float: left;
-    height: 1000px;
-    background-color: aliceblue;
-    ;
-}
-#right {
-    width: 70%;
-    float: left;
-    height: 1000px;
-    background-color: pink;
-}
-#top{
-    background-color: palegoldenrod;
-    height: 250px;
-}
-#bottom{
-    background-color: plum;
+    width: 30%;
     height: 750px;
+    display: inline-block;
+}
+.right {
+    float: left;
+    width: 70%;
+    background-color: pink;
+    height: 850px;
+    display: inline;
+}
+#top {
+    width: 100%;
+    background-color: palegoldenrod;
+    height: 30%;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    font-size: large;
+    padding: 5%;
+}
+#bottom {
+    width: 100%;
+    background-color: plum;
+    height: 80%;
+}
+img {
+    height: 75%;
+}
+.sbText {
+    padding: 3%;
+    vertical-align: top;
 }
